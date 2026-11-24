@@ -10,7 +10,7 @@
   "configuracion": {
     "MRDX.Custom.RanchRules": {
       "ShrineLimitEnabled": true,
-      "ShrinePerYear": 5,
+      "ShrinePerYear": 7,
       "YearlyBackup": true,
       "BlockLowerRankTournaments": true,
       "LowerRanksAllowed": 0
