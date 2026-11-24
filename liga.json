@@ -1,0 +1,51 @@
+{
+  "formato": 1,
+  "nombre": "Liga Kokemon de Prueba",
+  "idioma": "es",
+  "rancho": {
+    "repo": "tms87/mr2-rancho-de-kokemones",
+    "version": "1.0.0"
+  },
+  "dependencias": {},
+  "configuracion": {
+    "MRDX.Custom.RanchRules": {
+      "ShrineLimitEnabled": true,
+      "ShrinePerYear": 5,
+      "YearlyBackup": true,
+      "BlockLowerRankTournaments": true,
+      "LowerRanksAllowed": 0
+    },
+    "MRDX.Custom.DiscRandomizer": {
+      "Seed": 517651416,
+      "RandomizeBreed": true,
+      "IncludeMoreMonsters": true,
+      "IncludeBonusSpecies": true,
+      "StatVariancePercent": 20,
+      "GrowthVarianceSteps": 1,
+      "LifespanVariancePercent": 10,
+      "NatureVariance": 30
+    },
+    "MRDX.Custom.ItemTolerance": {
+      "ToleranceStepPercent": 10,
+      "MinimumEffectPercent": 40,
+      "MaxTolerance": 10,
+      "SharedTolerance": true,
+      "LifespanBaseChancePercent": 0,
+      "LifespanChancePerItemPercent": 2,
+      "LifespanMaxChancePercent": 50,
+      "LifespanWeeksLost": 1
+    },
+    "MRDX.Custom.Leagues": {
+      "Seed": 599293694,
+      "IncludeMoreMonsters": true,
+      "ExportOnSave": true
+    },
+    "MRDX.Custom.CalendarioKokemon": {
+      "ShuffleSmall": true,
+      "Seed": 1153134677
+    },
+    "MRDX.Game.MoreMonsters": {
+      "BonusMonsterSpecies": true
+    }
+  }
+}
